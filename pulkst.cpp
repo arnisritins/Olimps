@@ -53,14 +53,14 @@ int main(){
 		ostringstream ss;
 		ss.fill('0');
 		ss.width(2);
-     	ss << h;
+		ss << h;
 		ss.fill('0');
 		ss.width(2);
-     	ss << m;
+		ss << m;
 
-     	end_time = ss.str();
-     	
-     	if(same_chars(start_time, end_time))
+		end_time = ss.str();
+
+		if(same_chars(start_time, end_time))
 			break;
 
 	}
